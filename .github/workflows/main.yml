@@ -10,7 +10,7 @@ name: Main Branch CI
 #      cannot express a write scope, so the block is spelled out.
 #   4. A fail-closed assertion on the instrumented arm.
 #   5. macos-latest dropped from the matrix: observables are linux-only.
-#   6. Upstream gates the job on `github.repository == 'curiosity-tests/samples'`, which
+#   6. Upstream gates the job on `github.repository == 'flutter/samples'`, which
 #      is false in this fork and would skip every job. Removed.
 # Build and test COMMANDS are byte-identical to upstream.
 
